@@ -4,7 +4,7 @@ Reddit JSON => mysqlite db => training files => train chatbot => interact with c
 
 ## Setup for docker
 
-1. Git clone [APy repository](https://github.com/davetlewis-van/APy.git) into a new directory.
+1. Git clone [https://github.com/davetlewis-van/APy.git](https://github.com/davetlewis-van/APy.git) into a new directory.
 1. `wget http://downloads.activestate.com/ActivePython/releases/3.6.0.3600/ActivePython-3.6.0.3600-linux-x86_64-glibc-2.3.6-401834.tar.gz`
 1. `docker build -t "python36:dockerfile" .`
 1. `docker run -it python36:dockerfile`
@@ -33,8 +33,8 @@ Reddit JSON => mysqlite db => training files => train chatbot => interact with c
 
 ### Reddit
 
-[JSON](https://files.pushshift.io/reddit/comments/)
-[Google BigQuery](https://bigquery.cloud.google.com/table/fh-bigquery:reddit_comments.2017_12?tab=schema)
+* [JSON](https://files.pushshift.io/reddit/comments/)
+* [Google BigQuery](https://bigquery.cloud.google.com/table/fh-bigquery:reddit_comments.2017_12?tab=schema)
 
 ### Stack Overflow
 
@@ -48,17 +48,17 @@ Reddit JSON => mysqlite db => training files => train chatbot => interact with c
 ## Process
 
 ![Reddit JSON structure](img/json.png)
+![sqlite table](img/sqlite.png)
 ![Training 1](img/training.png)
 ![Training 2](img/training2.png)
-![TensorBoard](img/tensorboard.png)
-![CPU usage](img/cpu.png)
-![BigQuery](img/bigquery.png)
-
-
+![TensorBoard Scalars](img/tensorboard.png)
+![TensorBoard Projector](img/tensorboard2.png)
 
 ## TODO
 
 * Get access to a GPU
+  ![CPU usage](img/cpu.png)
 * Figure out how to access my programming-specific BigQuery tables from the Google Cloud VM instance.
+  ![BigQuery](img/bigquery.png)
 * Figure out how to read in Stack Overflow Q&A
 * Run docker container on Google Cloud VM
