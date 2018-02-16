@@ -26,6 +26,7 @@ Reddit JSON => mysqlite db => training files => train chatbot => interact with c
 ## Resources
 
 * [PythonProgramming.net chatbot tutorials](https://pythonprogramming.net/chatbot-deep-learning-python-tensorflow/)
+* [AI and Chatbots in Technical Communication](https://www.cherryleaf.com/blog/2017/08/ai-chatbots-technical-communication-primer/)
 * [Google Dialogflow](https://dialgoflow.com)
 
 ## Datasets
@@ -43,6 +44,17 @@ Reddit JSON => mysqlite db => training files => train chatbot => interact with c
   * [Tags.csv](https://www.kaggle.com/stackoverflow/pythonquestions/downloads/Tags.csv)
 
 * [Google BigQuery](https://bigquery.cloud.google.com/dataset/fh-bigquery:stackoverflow)
+
+## Process
+
+![Reddit JSON structure](img/json.png)
+![Training 1](img/training.png)
+![Training 2](img/training2.png)
+![TensorBoard](img/tensorboard.png)
+![CPU usage](img/cpu.png)
+![BigQuery](img/bigquery.png)
+
+
 
 ## TODO
 
