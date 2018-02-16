@@ -8,7 +8,7 @@ Reddit JSON => mysqlite db => training files => train chatbot ==> interact with 
 1. `wget http://downloads.activestate.com/ActivePython/releases/3.6.0.3600/ActivePython-3.6.0.3600-linux-x86_64-glibc-2.3.6-401834.tar.gz`
 1. `docker build -t "python36:dockerfile" .`
 1. `docker run -it python36:dockerfile`
-1. There are sample training files, but you can copy the training files you want to use to the `new_data` folder. If so, you need to adjust the files listed at the top of
+1. There are sample training files, but you can copy the training files you want to use to the `new_data` folder. If so, you need to adjust the files listed at the top of `prepare_data.py` and dev_prefix and test_prefix in `settings.py`
 1. Navigate to the `/code/nmt-chatbot/setup` folder and run `prepare_data.py`
 1. Navigate to the `/code/nmt-chatbot/` folder and run `train.py`
 1. To interact with the chatbot run `inference.py`
