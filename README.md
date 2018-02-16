@@ -1,6 +1,6 @@
 # APy
 
-Reddit JSON => mysqlite db => training files => train chatbot ==> interact with chatbot
+Reddit JSON => mysqlite db => training files => train chatbot => interact with chatbot
 
 ## Setup for docker
 
