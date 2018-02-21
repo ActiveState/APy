@@ -1,3 +1,6 @@
+# Copyright (c) 2018 ActiveState Software Inc.
+# Released under the BSD-3 license. See LICENSE file for details.
+
 import sqlite3
 import json
 from datetime import datetime

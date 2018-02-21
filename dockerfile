@@ -1,3 +1,7 @@
+
+# Copyright (c) 2018 ActiveState Software Inc.
+# Released under the BSD-3 license. See LICENSE file for details.
+
 FROM centos:7
 
 WORKDIR /var/tmp
