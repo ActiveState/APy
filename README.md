@@ -1,6 +1,3 @@
-Copyright (c) 2018 ActiveState Software Inc.
-Released under the BSD-3 license. See LICENSE file for details.
-
 # APy
 
 Reddit JSON => mysqlite db => training files => train chatbot => interact with chatbot
@@ -65,3 +62,8 @@ Reddit JSON => mysqlite db => training files => train chatbot => interact with c
   ![BigQuery](img/bigquery.png)
 * Figure out how to read in Stack Overflow Q&A
 * Run docker container on Google Cloud VM
+
+## License
+
+Copyright (c) 2018 ActiveState Software Inc.
+Released under the BSD-3 license. See LICENSE file for details.
