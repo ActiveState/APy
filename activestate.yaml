@@ -1,0 +1,6 @@
+name: APy
+owner: ActiveState
+namespace: github.com/ActiveState/APy
+languages:
+    - name: Python3
+      version: 3.6.5
